@@ -1,0 +1,18 @@
+/*PRN-2503033111378UD002
+  Arya kadu 
+  VLSI DESIGN */
+#include<stdio.h>
+int main()
+{ 
+int i,pn=0,cn=1,nn,fab;
+printf("enter the fabonacii no\t");
+scanf("%d",&fab);
+for(i=1;i<=fab;i++){
+	nn=cn+pn;
+pn=cn;
+printf("%d\n",cn);
+cn=nn;
+}
+return 0;
+}
+
